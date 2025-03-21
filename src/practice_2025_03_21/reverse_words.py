@@ -5,7 +5,10 @@
 # print(words[::-1])
 
 
-sentence = input("문장을 입력하세요: ")
-words = sentence.split()
-reversed_sentence = " ".join(reversed(words))
-print(reversed_sentence)
+# sentence = input("문장을 입력하세요: ")
+# words = sentence.split()
+# reversed_sentence = " ".join(reversed(words))
+# print(reversed_sentence)
+
+def reverse_words(sentence: str) -> str:
+    return " ".join(sentence.split()[::-1])
