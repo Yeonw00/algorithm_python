@@ -1,5 +1,5 @@
 import pytest
-from src.practice_2005_03_24.most_frequent_char import most_frequent_char
+from src.practice_2025_03_24.most_frequent_char import most_frequent_char
 
 def test_basic():
     assert most_frequent_char("hello") == "l"

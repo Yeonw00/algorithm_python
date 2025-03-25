@@ -1,4 +1,4 @@
-from src.practice_2005_03_24.find_min_max import find_min_max
+from src.practice_2025_03_24.find_min_max import find_min_max
 
 def test_basic():
     assert find_min_max([3, 1, 4]) == (1, 4)

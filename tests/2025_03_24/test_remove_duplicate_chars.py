@@ -1,4 +1,4 @@
-from src.practice_2005_03_24.remove_duplicate_chars import remove_duplicate_chars
+from src.practice_2025_03_24.remove_duplicate_chars import remove_duplicate_chars
 
 def test_basic():
     assert remove_duplicate_chars("banana") == "ban"

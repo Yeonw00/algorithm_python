@@ -1,4 +1,4 @@
-from src.practice_2005_03_24.palindrome_check import palindrome_check
+from src.practice_2025_03_24.palindrome_check import palindrome_check
 
 def test_even_length_palindrome():
     assert palindrome_check("abba")
